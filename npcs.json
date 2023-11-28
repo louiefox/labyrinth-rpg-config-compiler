@@ -1,0 +1,42 @@
+{
+    "lyra": {
+        "name": "Lyra McBride",
+        "title": "Adventurer",
+        "dialogue": {
+            "1": {
+                "dialogue_text": "Hello fellow adventurer, how\ncan I help you?",
+                "options": {
+                    "1": {
+                        "option_text": "Did you see that?",
+                        "next_dialogue": "2"
+                    }
+                }
+            },
+            "2": {
+                "dialogue_text": "Did I see what?",
+                "options": {
+                    "1": {
+                        "option_text": "That growling noise!",
+                        "next_dialogue": "3"
+                    },
+                    "2": {
+                        "option_text": "Nothing..."
+                    }
+                }
+            },
+            "3": {
+                "dialogue_text": "Wait, you heard growling!\nFrom where?",
+                "options": {
+                    "1": {
+                        "option_text": "By the entrance!"
+                    }
+                }
+            }
+        }
+    },
+    "steve":
+    {
+        "name": "Steveious",
+        "title": "Smith"
+    }
+}
